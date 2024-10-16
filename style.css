@@ -381,3 +381,131 @@ body{
     grid-auto-flow: column;
     justify-content: space-evenly;
 }
+.mobbut{
+  display: none;
+}
+@media only screen and (max-width: 600px){
+    .maincontainer{
+      grid-auto-flow: row;
+      margin: 50px 0px 0px;
+      gap: 29px;
+    }
+
+    .buttons{
+      grid-auto-flow: row;
+    }
+
+    .logo{
+      grid-auto-flow: row;
+    }
+
+    .apollologo img{
+      width: 66px;
+      align-self: center;
+    }
+
+    .clgname h1{
+      font-size: 17px;
+    width: 365px;
+    }
+
+    .clgname h2{
+      font-size: 19px;
+      width: 365px;
+    }
+
+    .header{
+      display: block;
+    }
+
+    .hero h2{
+      font-size: 21px;
+    }
+    .hero h1{
+      font-size: 32px;
+    }
+
+    .time{
+      padding: 4px;
+    }
+    #timer span {
+      font-size: 13px;
+    }
+    #countdown{
+      padding: 28px 19px;
+      margin: 32px 0px;
+    }
+
+    .patron, .event,.sponsor{
+      margin: 32px 0px;
+    }
+    .boxs div {
+      padding: 0px;
+      margin: 0px 12px;
+  }
+  .box {
+    width: 129px;
+    height: 130px;
+    box-shadow: rgb(206 38 38) 0px 4px 8px 0px;
+
+  }
+
+  .firsthalf,.secondhalf{
+    gap: 20px;
+  }
+  #backbtn, #nextbtn {
+    width: 29px;
+    cursor: pointer;
+    margin: 0px;
+  }
+
+  .box h2{
+    font-size: 15px;
+    padding-bottom: 6px;
+  }
+  .box p {
+    padding-bottom: 0px;
+    font-size: 10px;
+  }
+
+  .thecard{
+    width: 265px;
+    height: 277px;
+  }
+  .somu{
+    gap: 46px;
+  }
+  .clgname {
+     padding-top: 0px; 
+     margin-right: 0px; 
+}
+.somu img {
+  height: 33px;
+  width: 33px;
+  justify-self: center;
+}
+
+.but{
+  display: none;
+}
+
+.mobbut{
+  display: block;
+  margin-left: 41px;
+        font-size: 14px;
+        border-radius: 5px;
+        width: 176px;
+        height: 36px;
+    text-align: center;
+    align-content: center;
+    cursor: pointer;
+    background: linear-gradient(45deg, #ffffff, #f83f3f, #f30000);
+    box-shadow: rgb(255 0 0) 0px 4px 20px 0px;
+    margin-bottom: 29px;
+}
+
+.theback p{
+  width: 179px;
+  font-size: 17px;
+}
+}
