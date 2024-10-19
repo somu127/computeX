@@ -498,20 +498,25 @@ body{
 .mobbut{
   display: block;
   margin-left: 41px;
-        font-size: 14px;
-        border-radius: 5px;
-        width: 176px;
-        height: 36px;
-    text-align: center;
-    align-content: center;
-    cursor: pointer;
-    background: linear-gradient(45deg, #ffffff, #f83f3f, #f30000);
-    box-shadow: rgb(255 0 0) 0px 4px 20px 0px;
-    margin-bottom: 29px;
+  font-size: 14px;
+  border-radius: 5px;
+  width: 176px;
+  height: 36px;
+  text-align: center;
+  align-content: center;
+  cursor: pointer;
+  background: linear-gradient(45deg, #ffffff, #f83f3f, #f30000);
+  box-shadow: rgb(255 0 0) 0px 4px 20px 0px;
+  margin-bottom: 29px;
 }
 
 .theback p{
   width: 179px;
   font-size: 17px;
+}
+
+.mobbut a{
+  text-decoration: none;
+  color: #000;
 }
 }

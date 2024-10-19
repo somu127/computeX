@@ -105,3 +105,15 @@
     background: linear-gradient(45deg, rgba(255, 225, 230, 0.763), rgb(0, 0, 0), rgb(252, 252, 252)) 0% 0% / 200% text;
     animation: 4s linear 0s infinite normal none running gradient;
 }
+
+@media only screen and (max-width: 600px){
+    .eventlist{
+        grid-auto-flow: unset;
+        gap: 31px;
+    }
+    .tech {
+        font-size: 29px;
+    }
+
+
+}
