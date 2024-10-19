@@ -16,7 +16,7 @@ let scrollContainer=document.querySelector(".boxs");
 
 
         // Set the target date and time for the countdown
-        const targetDate = new Date("November 05, 2024 09:00:00").getTime();
+        const targetDate = new Date("November 06, 2024 09:00:00").getTime();
         
         // Update the countdown every second
         const countdownInterval = setInterval(() => {

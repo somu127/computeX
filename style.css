@@ -305,6 +305,7 @@ body{
 
 .somu img{
     height: 42px;
+    padding: 0px 4px;
     width: 42px;
     justify-self: center;
 }
@@ -383,6 +384,11 @@ body{
 }
 .mobbut{
   display: none;
+}
+
+.but a{
+  text-decoration: none;
+  color: black;
 }
 @media only screen and (max-width: 600px){
     .maincontainer{

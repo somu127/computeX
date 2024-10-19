@@ -1,0 +1,107 @@
+.tech{
+    margin-bottom: 49px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    font-family: Zaptron, sans-serif;
+    text-align: center;
+    font-size: 55px;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    animation-timeline: auto;
+    animation-range-start: normal;
+    animation-range-end: normal;
+    background: linear-gradient(45deg, rgba(255, 225, 230, 0.763), rgb(0, 0, 0), rgb(252, 252, 252)) 0% 0% / 200% text;
+    animation: 4s linear 0s infinite normal none running gradient;
+    
+}
+@keyframes gradient{
+    0% {
+        background-position: 0% center;
+    }
+    
+    100% {
+        background-position: -200% center;
+    }
+}
+
+.eventlist{
+    display:grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.eventlist div{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(5, 2, 7, 0.3) 0px 2px 6px;
+    cursor: pointer;
+
+}
+/* .eventlist div:hover{
+    width: 310px;
+    height: 310px;
+} */
+.total{
+    display: grid;
+    grid-auto-flow: row;
+    gap: 35px;
+}
+
+/* Existing styles... */
+
+.popup {
+    display: none; 
+    position: fixed; 
+    z-index: 1000; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0, 0, 0, 0.7); 
+}
+
+.popup-content {
+    background-color: #fff;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 300px; 
+    border-radius: 10px;
+    text-align: center;
+}
+
+.close1, .close2, .close3, .close4, .close5 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close1:hover, .close2:hover, .close3:hover, .close4:hover, .close5:hover,
+.close1:focus, .close2:focus, .close3:focus, .close4:focus, .close5:focus{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Add any additional styles you want for the form elements */
+.pop-head{
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    font-family: Zaptron, sans-serif;
+    text-align: center;
+    font-size: 29px;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    animation-timeline: auto;
+    animation-range-start: normal;
+    animation-range-end: normal;
+    background: linear-gradient(45deg, rgba(255, 225, 230, 0.763), rgb(0, 0, 0), rgb(252, 252, 252)) 0% 0% / 200% text;
+    animation: 4s linear 0s infinite normal none running gradient;
+}
