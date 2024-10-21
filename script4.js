@@ -12,49 +12,6 @@ document.addEventListener('DOMContentLoaded', () => {
     closeBtn.addEventListener('click', () => {
         popup.style.display = 'none';
     });
-
-    window.addEventListener('click', (event) => {
-        if (event.target === popup) {
-            popup.style.display = 'none';
-        }
-    });
-});
-document.addEventListener('DOMContentLoaded', () => {
-    const events = document.querySelectorAll('.event2');
-    const popup = document.getElementById('popup2');
-    const closeBtn = document.querySelector('.close2');
-
-    events.forEach(event => {
-        event.addEventListener('click', () => {
-            popup.style.display = 'block';
-        });
-    });
-
-    closeBtn.addEventListener('click', () => {
-        popup.style.display = 'none';
-    });
-
-    window.addEventListener('click', (event) => {
-        if (event.target === popup) {
-            popup.style.display = 'none';
-        }
-    });
-});
-document.addEventListener('DOMContentLoaded', () => {
-    const events = document.querySelectorAll('.event3');
-    const popup = document.getElementById('popup3');
-    const closeBtn = document.querySelector('.close3');
-
-    events.forEach(event => {
-        event.addEventListener('click', () => {
-            popup.style.display = 'block';
-        });
-    });
-
-    closeBtn.addEventListener('click', () => {
-        popup.style.display = 'none';
-    });
-
     window.addEventListener('click', (event) => {
         if (event.target === popup) {
             popup.style.display = 'none';
