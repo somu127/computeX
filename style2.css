@@ -117,6 +117,18 @@ body{
     }
     .tech {
         font-size: 29px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.00938em;
+        font-family: Zaptron, sans-serif;
+        text-align: center;
+        color: transparent;
+        -webkit-text-fill-color: transparent;
+        animation-timeline: auto;
+        animation-range-start: normal;
+        animation-range-end: normal;
+        background: linear-gradient(45deg, rgba(255, 225, 230, 0.763), rgb(0, 0, 0), rgb(252, 252, 252)) 0% 0% / 200% text;
+        animation: 4s linear 0s infinite normal none running gradient;
     }
 
 
