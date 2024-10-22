@@ -41,10 +41,10 @@
     cursor: pointer;
 
 }
-/* .eventlist div:hover{
-    width: 310px;
-    height: 310px;
-} */
+.eventlist div:hover{
+    width: 255px;
+    height: 255px;
+}
 .total{
     display: grid;
     grid-auto-flow: row;
